@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+
+    <style>
+        form{
+            background-color: rgb(190, 135, 240);
+            width: 15%;
+            margin: 200px auto;
+            padding: 50px;
+            border-radius: 50px 0;
+        }
+        input{
+            width: 100%;
+            border: none;
+            outline: none;
+            height: 25px;
+            margin-bottom: 10px;
+        }
+        button{
+            background-color: white;
+            border: none;
+            padding: 10px 15px;
+            margin-right: auto;    
+        }
+        label{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="">Username</label>
+        <input type="text" name="name" required>
+        <br>
+        <label for="">Password</label>
+        <input type="password" name="password">
+        <br>
+        <label for="">Birth date</label>
+        <input type="date" name="date">
+        <br>
+        <label for="">Age</label>
+        <input type="number" min="20" name="age">
+        <br>
+        <label for="">Favorite Color</label>
+        <input type="color" name="color">
+        <br>
+        <label for="">Satisfaction Rating</label>
+        <input type="range" min="1" max="10" name="rate">
+        <br>
+        <button>submit</button>
+    </form>
+</body>
+</html>
